@@ -1,0 +1,20 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Build artifacts / dependencies
+node_modules/
+dist/
+build/
+bin/
+obj/
+out/
+
+# Logs
+*.log
+logs/
