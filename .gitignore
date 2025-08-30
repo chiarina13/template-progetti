@@ -1,20 +1,89 @@
-# OS junk
+# ==========================
+# OS-specific files
+# ==========================
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Editors/IDEs
+# ==========================
+# IDEs and Editors
+# ==========================
 .vscode/
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
 *.code-workspace
 
-# Build artifacts / dependencies
+# ==========================
+# Node / JavaScript
+# ==========================
 node_modules/
 dist/
 build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+env/
+ENV/
+*.sqlite3
+
+# ==========================
+# PHP
+# ==========================
+vendor/
+composer.lock
+
+# ==========================
+# C# / .NET / Blazor
+# ==========================
 bin/
 obj/
 out/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
+# Visual Studio
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==========================
+# Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+
+# ==========================
 # Logs
+# ==========================
 *.log
 logs/
